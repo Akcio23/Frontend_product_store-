@@ -1,0 +1,153 @@
+/* Estilos para telas maiores */
+.nav-bar {
+    display: flex;
+    flex-direction: column; /* Alinha a navbar em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    gap: 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333; /* Cor de fundo para a Navbar */
+    color: white; /* Cor do texto na Navbar */
+    padding: 10px 0px 0px; /* Adiciona preenchimento dentro da Navbar */
+}
+
+.sections {
+    display: flex;
+    
+    list-style-type: none; 
+    width: 100%;
+    justify-content: space-around;
+    padding: 0; /* Remove o preenchimento padrão */
+    
+}
+
+.principal-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center; /* Alinha verticalmente */
+}
+
+.search-bar {
+    width: 30%;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f1f1f1;
+    height: 2rem;
+    margin-top: 1rem;
+    background-image: url("C:\Users\pedro\Desktop\e-commerce\e-commerce\public\lupa.png");
+    background-repeat: no-repeat;
+    background-position:98%; /* Centraliza o ícone verticalmente e o posiciona à direita */
+    background-size: 1.6rem; /* Ajusta o tamanho da imagem de fundo */
+    padding-right: 2rem; /* Ajusta o espaçamento para acomodar a imagem */
+
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+.box {
+    display: flex;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-right: #f1f1f1 solid 1px;
+    align-items: center; /* Alinha verticalmente */
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.options {
+    display: flex;
+    
+}
+
+.color-change {
+    filter: sepia(100%);
+    filter: invert(100%);
+}
+
+.sections a { /* Alterando a tag LINK */
+    color: white; 
+    text-decoration: none; 
+    display: block; /* Garante que o link ocupe o bloco inteiro */
+    padding: 10px; /* Adiciona preenchimento para espaçamento */
+    text-align: center; /* Centraliza o texto */
+    
+    width: 100%;
+}
+.hover-efects:hover {
+    background-color: #4b4a4a; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+    border-radius: 10px;
+}
+
+.sections li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Garante que o item ocupe a largura total disponível */
+    border-right: 1px solid #f1f1f1;
+    transition: background-color 0.3s, color 0.3s; 
+    
+}
+
+.site-title {
+    font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+    margin: 0; /* Remove a margem padrão */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: #fff; /* Cor do texto do h1 */
+}
+
+.site-title a {
+    color: #fff; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+    transition: color 0.3s; /* Transição suave para a cor ao passar o mouse */
+}
+
+.site-title a:hover {
+    color: #9e9b9b; /* Cor do link ao passar o mouse (exemplo: tom de vermelho) */
+}
+
+/* Estilos para telas menores */
+@media (max-width: 750px) {
+    .nav-bar {
+        align-items: center; /* Alinha os itens ao centro */
+    }
+
+ 
+
+    .principal-div {
+        flex-direction: column; /* Muda a direção do flex para coluna */
+        align-items: center; /* Alinha os itens ao centro */
+    }
+
+    .search-bar {
+        margin-top: 1rem;
+        width: 80%; /* Aumenta a largura da barra de busca */
+        margin-bottom: 10px; /* Adiciona margem inferior */
+    }
+
+    img {
+        height: 25px; /* Aumenta o tamanho das imagens */
+        width: 25px; /* Aumenta o tamanho das imagens */
+    }
+
+    .box {
+        align-items: center; /* Alinha os itens ao centro */
+    }
+
+    .options {
+        gap: 1rem; /* Ajusta o espaçamento entre itens */
+    }
+
+    h1 {
+        font-size: 20px; /* Ajusta o tamanho da fonte do título */
+    }
+
+   
+}

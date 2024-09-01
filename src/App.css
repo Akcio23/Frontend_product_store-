@@ -1,38 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Garante que o body ocupe 100% da altura da janela */
+    box-sizing: border-box; /* Inclui padding e bordas nas larguras */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que a div .App ocupe pelo menos 100% da altura da tela */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.container {
+    background-color: rgb(248, 248, 248);
+    margin-top: 15rem;
+    flex: 1; /* Faz com que a div .container ocupe o espaço restante entre Navbar e Footer */
+    padding: 20px; /* Adiciona algum preenchimento opcional */
+    margin-top: 60px; /* Compensa a altura da Navbar fixa */
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
