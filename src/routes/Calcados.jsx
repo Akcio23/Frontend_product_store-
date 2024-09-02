@@ -2,7 +2,7 @@ import React from 'react'
 
 const Calcados = () => {
   return (
-    <div className='home'>
+    <div className='main'>
       <h1>Calcados</h1>
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Camisetas = () => {
   return (
-    <div className='home'>
+    <div className='main'>
       <h1>Camisestas</h1>
     </div>
   )

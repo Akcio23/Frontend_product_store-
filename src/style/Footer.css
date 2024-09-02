@@ -4,4 +4,36 @@
     padding: 10px; /* Adiciona algum preenchimento opcional */
     text-align: center; /* Centraliza o texto no rodapé */
     margin-top: auto; /* Empurra o Footer para o final da página */
+    display: flex;
+    
+}
+
+.data-footer{
+    text-align: start;
+    margin-left: 5rem;
+}
+.data-footer p {
+    cursor: pointer;
+    font-size: 10px;
+}
+
+
+@media (max-width: 750px) {
+    .footer{
+        flex-direction: column;
+        
+    }
+
+    .data-footer{
+        text-align: start;
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    .data-footer p {
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 200;
+    }
+   
 }

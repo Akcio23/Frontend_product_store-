@@ -1,9 +1,36 @@
-.home{
-    margin-top: 3rem;
+.content-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
 }
 
+.title-announcement {
+    border-bottom: 3px solid #333;
+    margin-top: 2rem;
+}
+
+.offers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    gap: 5rem;
+    margin-bottom: 0.5rem;
+    
+ 
+}
+
+
 @media (max-width: 750px) {
-    .home{
-        margin-top: 10rem;
+    .title-announcement{
+        margin-top: 3rem;
+        font-size: 20px;
     }
+    .offers{
+        flex-direction: column;
+        margin-top: 0.5rem;
+        gap: 1rem;
+    }
+   
 }
