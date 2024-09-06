@@ -15,6 +15,7 @@ function Home() {
                     <Product/>
                     <Product/>
                     
+                
                 </div>
                 <h1 className='title-announcement'>
                 🚩 AS MELHORES CALÇAS E BERMUDAS 🚩
@@ -25,6 +26,7 @@ function Home() {
                     <Product/>
                     <Product/>
                     <Product/>
+
                     
                 </div>
                 

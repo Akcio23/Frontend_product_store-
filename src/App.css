@@ -10,11 +10,7 @@ html, body {
 
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
+
 
 .App {
     display: flex;
@@ -30,6 +26,10 @@ html, body {
     flex: 1; /* Faz com que a div .container ocupe o espaço restante entre Navbar e Footer */
     padding: 20px; /* Adiciona algum preenchimento opcional */
     margin-top: 60px; /* Compensa a altura da Navbar fixa */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
