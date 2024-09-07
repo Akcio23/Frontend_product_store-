@@ -5,6 +5,10 @@ function Home() {
     return (
         <div className='main'>
             <div className='content-home'>
+
+                <div className>
+                    <img src="Fundo.jpg" alt="" className='welcome'/>
+                </div>
                 <h1 className='title-announcement'>
                  PRODUTOS COM ATÉ 80% OFF? TEMOS 🚩
                 </h1>
@@ -14,6 +18,8 @@ function Home() {
                     <Product/>
                     <Product/>
                     <Product/>
+                    <Product/>
+                    
                     
                 
                 </div>
@@ -22,6 +28,7 @@ function Home() {
                 </h1>
                 <div className='offers'>
                 
+                    <Product/>
                     <Product/>
                     <Product/>
                     <Product/>

@@ -1,0 +1,11 @@
+.main-comprar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste dinâmico de colunas */
+    gap: 1rem; /* Espaçamento entre colunas */
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 80%;
+    background-color: blanchedalmond;
+    align-items: end; /* Ou 'center' ou 'start', dependendo do layout desejado */
+    padding: 1rem;
+}

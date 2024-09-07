@@ -2,9 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
-    max-width: 1000px;
+    margin: 5rem auto; /* Centraliza horizontalmente */
+    margin-top: 0rem;
+    max-width: 80%; /* O conteúdo ocupará no máximo 80% da largura */
+    gap: 1rem; /* Espaçamento entre os itens */
 }
+
 
 .title-announcement {
     width: 100%;
@@ -14,18 +17,21 @@
 }
 
 .offers {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5px;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 0.5rem;
     
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    width: 100%;
     margin-bottom: 0.5rem;
     
-    
- 
+}
+
+.welcome{
+    width: 1300px;
+    height: 300px;
+    border-radius: 15px;
 }
 
 
@@ -40,5 +46,10 @@
         margin-top: 0.5rem;
         gap: 1rem;
     }
-   
+
+    .welcome{
+        display: none;
+    }
+
+    
 }

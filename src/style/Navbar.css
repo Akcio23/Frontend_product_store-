@@ -8,7 +8,7 @@
     position: fixed;
     width: 100%;
     z-index: 1000;
-    background-color: #333; /* Cor de fundo para a Navbar */
+    background-color: #000000;; /* Cor de fundo para a Navbar */
     color: white; /* Cor do texto na Navbar */
     padding: 10px 0px 0px; /* Adiciona preenchimento dentro da Navbar */
 }
@@ -77,7 +77,6 @@
     display: block; /* Garante que o link ocupe o bloco inteiro */
     padding: 10px; /* Adiciona preenchimento para espaçamento */
     text-align: center; /* Centraliza o texto */
-    
     width: 100%;
 }
 .hover-efects:hover {
@@ -92,6 +91,7 @@
     justify-content: center;
     width: 100%; /* Garante que o item ocupe a largura total disponível */
     border-right: 1px solid #f1f1f1;
+   
     transition: background-color 0.3s, color 0.3s; 
     
 }
@@ -111,7 +111,9 @@
 
 .site-title a:hover {
     color: #9e9b9b; /* Cor do link ao passar o mouse (exemplo: tom de vermelho) */
+    
 }
+
 
 /* Estilos para telas menores */
 @media (max-width: 750px) {

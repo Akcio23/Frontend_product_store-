@@ -12,6 +12,7 @@ import Produtos from './routes/Produtos';
 import Calcados from './routes/Calcados';
 import Camisetas from './routes/Camisetas';
 import Acessorios from './routes/Acessorios';
+import Comprar from './routes/Comprar';
 
 
 
@@ -24,17 +25,20 @@ const router = createBrowserRouter([
         path: "/", // Define a rota para o componente Home
         element: <Home />
       },{
-        path: "/produtos", // Define a rota para o componente Produtos
+        path: "/produtos", // Define a rota para o  Produtos
         element: <Produtos />
       },{
-        path: "/calcados", // Define a rota para o componente Calcados
+        path: "/calcados", // Define a rota para o  Calcados
         element: <Calcados />
       },{
-        path: "/camisetas", // Define a rota para o componente Camisetas
+        path: "/camisetas", // Define a rota para o  Camisetas
         element: <Camisetas />
       },{
-        path: "/acessorios", // Define a rota para o componente Acessorios
+        path: "/acessorios", // Define a rota para o  Acessorios
         element: <Acessorios />
+      },{
+        path: "/comprar", // Define a rota para o  Comprar
+        element: <Comprar />
       }
 
     ]

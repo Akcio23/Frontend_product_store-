@@ -7,6 +7,7 @@ html, body {
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    
 
 }
 
@@ -21,7 +22,7 @@ html, body {
 
 
 .container {
-    background-color: rgb(248, 248, 248);
+    
     margin-top: 15rem;
     flex: 1; /* Faz com que a div .container ocupe o espaço restante entre Navbar e Footer */
     padding: 20px; /* Adiciona algum preenchimento opcional */
@@ -32,6 +33,7 @@ html, body {
     align-items: center;
     
 }
+
 
 
 .main{
