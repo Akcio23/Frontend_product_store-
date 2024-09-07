@@ -1,11 +1,116 @@
 .main-comprar {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajuste dinâmico de colunas */
-    gap: 1rem; /* Espaçamento entre colunas */
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    width: 80%;
-    background-color: blanchedalmond;
-    align-items: end; /* Ou 'center' ou 'start', dependendo do layout desejado */
+    grid-template-columns: 1fr 1fr; /* Duas colunas de igual largura */
+    grid-template-rows: auto auto; /* Duas linhas automáticas */
+    gap: 1rem; /* Espaçamento entre os itens */
+    width: 80%; /* Pode ajustar conforme necessário */
+    margin: 5rem auto;
+    font-weight: 300;
+    
+}
+
+.photo {
+    grid-column: 1 / 2; /* Primeira coluna */
+    grid-row: 1 / 2;    /* Primeira linha */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datas-store {
+    grid-column: 2 / 3; /* Segunda coluna */
+    grid-row: 1 / 2;    /* Primeira linha */
+    
+    
+}
+.datas-store h1{
+    font-weight: 300;
+}
+
+.devolucao {
+    grid-column: 1 / 3; /* Ocupa as duas colunas */
+    grid-row: 2 / 3;    /* Segunda linha */
+    background-color: lightcoral;
+}
+
+.img-buy{
+    width: 60%;
+    height: 100%;
+}
+.datas-store{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+    
+}
+.header-buy{
+    background-color: rgb(220, 224, 226);
+    border: 1px solid #b1a9a9;
     padding: 1rem;
 }
+.header-buy h2{
+    font-weight: 400;
+}
+.desconto{
+    text-decoration: line-through;
+    color: #8d8c8c;
+}
+
+.body-buy{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: column;
+    padding-top: 1rem;
+    border-right: 1px solid #b1a9a9;;
+    border-left: 1px solid #b1a9a9;;
+    border-bottom: 1px solid #b1a9a9;
+    padding-left: 1rem;
+}
+
+.size{
+    display: flex;
+    gap: 1rem;
+}
+
+.size p{
+    border: solid 1px #b1a9a9;;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+
+.amount{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3rem;
+    
+}
+
+.amount p {
+    margin-top: 1rem;
+}
+
+.cout-main{
+    display: flex;
+    
+}
+
+.alter-cout{
+    padding: 0.5rem;
+    border: solid 1px #b1a9a9;
+}
+
+.cout{
+    padding: 0.5rem;
+    border-top: solid 1px #b1a9a9;
+    border-bottom: solid 1px #b1a9a9;
+    background-color:  rgb(220, 224, 226)
+}
+
+
+
