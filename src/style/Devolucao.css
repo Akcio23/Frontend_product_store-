@@ -1,0 +1,27 @@
+
+.main-devolucao{
+    border: 1px solid #b1a9a9;
+    padding:1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.main-devolucao h3{
+    text-align: center;
+}
+
+section h2{
+    margin: 2rem;
+}
+
+.main-devolucao:hover{
+    background-color: #ececec;
+}
+
+.section {
+
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+

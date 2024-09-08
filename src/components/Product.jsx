@@ -10,7 +10,8 @@ const img1 = "CamisaA1.webp"
 const Product = () => {
   return (
     <div className='offers'>
-    <div className='product'>
+      <Link to={"/Comprar"}>
+      <div className='product'>
       <div className='imagem'></div>
         <ImageComponent img1={img1} img2={img2} />
         <h2 className='offers-title'>Camiseta Basica</h2>
@@ -19,6 +20,9 @@ const Product = () => {
         </div>
         <Link to={"/Comprar"}><button className='button-buy' > Comprar</button></Link>
     </div>
+      
+      </Link>
+    
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import '../style/Comprar.css'
+import Devolucao from'../components/Devolucao'
 
 
 
@@ -11,7 +12,7 @@ const Comprar = () => {
   const [cout, setCout] = useState(0)
   if (cout < 0) {
     setCout(0)
-    alert('Quantidade inválida!')
+   
   }
 
 
@@ -86,13 +87,15 @@ const Comprar = () => {
 
             </div>
             <div className='buttuns'>
-              <button>Adicionar ao carrinho</button>
-              <button>Comprar</button>
+              <button className='button-carrinho'>ADICIONAR AO CARRINHO + </button>
+              <button className='button-buy'>COMPRAR AGORA </button>
             </div>
           </div>
         </div>
       </div>
-      <div className='devolucao'>devoluçcao</div>
+      <div className='devolucao'>
+        <Devolucao/>
+        </div>
     </div>
   )
 }
