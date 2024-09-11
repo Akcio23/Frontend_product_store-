@@ -1,0 +1,53 @@
+.forms-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.input-login{
+    width: 40%;
+    padding: 10px 15px;
+}
+
+.button-login{
+    display: flex;
+    gap: 0.5rem;
+    width: 40%;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.button-login button{
+    width: 20%;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    
+}
+
+.button-entrar{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.button-criar{
+    border: none;
+    background-color:#fff;
+}
+
+.recuperar-senha{
+    display: flex;
+    justify-content: end;
+    width: 40%;
+}
+
+.title-login{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}

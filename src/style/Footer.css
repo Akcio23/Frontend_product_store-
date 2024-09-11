@@ -5,6 +5,7 @@
     text-align: center; /* Centraliza o texto no rodapé */
     margin-top: auto; /* Empurra o Footer para o final da página */
     display: flex;
+    width: 100%;
     
 }
 

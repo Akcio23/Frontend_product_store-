@@ -1,0 +1,35 @@
+.main-novidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    background-color: rgb(246, 246, 242);
+    width: 95%;
+    padding: 2rem;
+}
+
+.main-novidades p{
+    font-weight: 200;
+}
+.novidades-email{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-novidades input{
+    padding: 15px;
+    border: none;
+    width: 20%;
+}
+
+.main-novidades button{
+    padding: 15px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

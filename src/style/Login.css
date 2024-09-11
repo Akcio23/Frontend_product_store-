@@ -1,0 +1,25 @@
+.main-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.main-login .aviso{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 1px;
+    font-weight: 200;
+}
+.title-principal{
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+    transition: 1s linear;
+}
+
+.title-principal:hover{
+    color: rgb(57, 58, 58);
+}
