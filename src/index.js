@@ -13,6 +13,7 @@ import Calcados from './routes/Calcados';
 import Camisetas from './routes/Camisetas';
 import Acessorios from './routes/Acessorios';
 import Comprar from './routes/Comprar';
+import Login from './routes/Login';
 
 
 
@@ -39,10 +40,13 @@ const router = createBrowserRouter([
       },{
         path: "/comprar", // Define a rota para o  Comprar
         element: <Comprar />
-      }
-
+      },
     ]
+  },{
+    path: "/login", // Define a rota para o  Login
+    element: <Login />
   }
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

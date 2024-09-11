@@ -9,12 +9,9 @@ function App() {
   return (
     <div className="App">
     <Navbar />
-
       <div className='container'>
-     
       <Outlet/>
       </div>
-      
       <Footer />
     </div>
   );

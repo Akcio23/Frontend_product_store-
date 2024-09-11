@@ -114,6 +114,10 @@
     
 }
 
+.p-nav-bar{
+    color: #fff;
+}
+
 
 /* Estilos para telas menores */
 @media (max-width: 750px) {

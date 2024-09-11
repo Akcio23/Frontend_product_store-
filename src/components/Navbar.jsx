@@ -19,11 +19,13 @@ const Navbar = () => {
             
                
                 <div className='options'>
-
-                    <div className='box hover-efects'>
+                    <Link to={'/login'}>
+                    <div className='box hover-efects' >
                         <img src="/usuario.png" alt="" className="color-change"  />
                         <p className='p-nav-bar'>Entrar</p>
                     </div>
+                    </Link>
+                    
                     <div className='box hover-efects'>
                         <img src="/carrinho.png" alt="" className="color-change" />
                         <p className='p-nav-bar'>Carrinho</p>
