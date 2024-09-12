@@ -1,25 +1,41 @@
-.main-login{
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Garante que o body ocupe 100% da altura da tela */
+}
+
+.main-login {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between; /* Garante que o conteúdo principal fique no topo e rodapé no final */
     align-items: center;
     gap: 0.5rem;
+    min-height: 100vh; /* Garante que a div ocupe pelo menos 100% da altura da tela */
 }
-.main-login .aviso{
+
+.aviso {
     background-color: black;
     color: white;
     width: 100%;
     text-align: center;
-    padding: 10px 1px;
-    font-weight: 200;
+    padding: 10px;
 }
-.title-principal{
+
+.title-principal {
     font-size: 3rem;
     text-align: center;
     margin: 2rem;
     transition: 1s linear;
 }
 
-.title-principal:hover{
+.title-principal:hover {
     color: rgb(57, 58, 58);
+}
+
+.footer {
+    background-color: #000;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
 }

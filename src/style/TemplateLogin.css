@@ -5,7 +5,11 @@
     align-items: center;
     width: 100%;
     gap: 0.5rem;
+
 }
+
+
+
 
 .input-login{
     width: 40%;
@@ -21,8 +25,8 @@
 }
 
 .button-login button{
-    width: 20%;
-    padding: 10px 15px;
+    
+    padding: 15px 30px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -37,7 +41,8 @@
 
 .button-criar{
     border: none;
-    background-color:#fff;
+    background-color: white;
+   
 }
 
 .recuperar-senha{
@@ -51,3 +56,5 @@
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+
+

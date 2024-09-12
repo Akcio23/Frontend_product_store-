@@ -1,13 +1,14 @@
 .main-novidades{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 1rem;
     margin-top: 2rem;
     background-color: rgb(246, 246, 242);
     width: 95%;
     padding: 2rem;
+    justify-content: flex-end;
+    border-radius: 10px;
 }
 
 .main-novidades p{
