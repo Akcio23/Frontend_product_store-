@@ -1,4 +1,4 @@
-.main-novidades{
+.main-novidades {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,22 +11,24 @@
     border-radius: 10px;
 }
 
-.main-novidades p{
+.main-novidades p {
     font-weight: 200;
 }
-.novidades-email{
+
+.novidades-email {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.main-novidades input{
+
+.main-novidades input {
     padding: 15px;
     border: none;
     width: 20%;
 }
 
-.main-novidades button{
+.main-novidades button {
     padding: 15px 20px;
     background-color: #000000;
     color: white;

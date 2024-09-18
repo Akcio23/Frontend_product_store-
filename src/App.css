@@ -1,52 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
-html, body {
+
+html,
+body {
     margin: 0;
     padding: 0;
-    height: 100%; /* Garante que o body ocupe 100% da altura da janela */
-    box-sizing: border-box; /* Inclui padding e bordas nas larguras */
+    height: 100%;
+    /* Garante que o body ocupe 100% da altura da janela */
+    box-sizing: border-box;
+    /* Inclui padding e bordas nas larguras */
     font-family: "SUSE", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     user-select: none;
-    
+
 
 }
-
-
 
 .App {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Garante que a div .App ocupe pelo menos 100% da altura da tela */
+    min-height: 100vh;
+    /* Garante que a div .App ocupe pelo menos 100% da altura da tela */
     align-items: center;
     gap: 1rem;
-   
+
 }
 
-
-
 .container {
-    
+
     margin-top: 15rem;
-    flex: 1; /* Faz com que a div .container ocupe o espaço restante entre Navbar e Footer */
-    padding: 20px; /* Adiciona algum preenchimento opcional */
-    margin-top: 60px; /* Compensa a altura da Navbar fixa */
+    flex: 1;
+    /* Faz com que a div .container ocupe o espaço restante entre Navbar e Footer */
+    padding: 20px;
+    /* Adiciona algum preenchimento opcional */
+    margin-top: 60px;
+    /* Compensa a altura da Navbar fixa */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    
+
 }
 
-
-
-.main{
+.main {
     margin-top: 3rem;
 }
 
 @media (max-width: 750px) {
-    .main{
+    .main {
         margin-top: 9rem;
     }
 }

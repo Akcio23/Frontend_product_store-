@@ -1,16 +1,20 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-    height: 100%; /* Garante que o body ocupe 100% da altura da tela */
+    height: 100%;
+    /* Garante que o body ocupe 100% da altura da tela */
 }
 
 .main-login {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Garante que o conteúdo principal fique no topo e rodapé no final */
+    justify-content: space-between;
+    /* Garante que o conteúdo principal fique no topo e rodapé no final */
     align-items: center;
     gap: 0.5rem;
-    min-height: 100vh; /* Garante que a div ocupe pelo menos 100% da altura da tela */
+    min-height: 100vh;
+    /* Garante que a div ocupe pelo menos 100% da altura da tela */
 }
 
 .aviso {

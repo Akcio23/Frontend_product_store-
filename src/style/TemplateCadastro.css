@@ -1,4 +1,4 @@
-.nome-cadastro{
+.nome-cadastro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,15 +6,15 @@
     transition: 1s linear;
 }
 
-.name{
+.name {
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
+    align-items: flex-end;
     width: 50%;
     gap: 0.5rem
 }
 
-.lastname{
+.lastname {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -24,10 +24,9 @@
 
 .name label {
     padding-right: 15%;
-    
+
 }
 
-.lastname label{
+.lastname label {
     padding-left: 15%
 }
-

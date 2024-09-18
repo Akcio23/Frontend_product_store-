@@ -3,10 +3,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5rem auto; /* Centraliza horizontalmente */
-    margin-top: 0; /* Remove o margin-top redundante */
-    max-width: 80%; /* O conteúdo ocupará no máximo 80% da largura */
-    gap: 1rem; /* Espaçamento entre os itens */
+    margin: 5rem auto;
+    /* Centraliza horizontalmente */
+    margin-top: 0;
+    /* Remove o margin-top redundante */
+    max-width: 80%;
+    /* O conteúdo ocupará no máximo 80% da largura */
+    gap: 1rem;
+    /* Espaçamento entre os itens */
 }
 
 /* Estilo para os títulos dos anúncios */
@@ -15,13 +19,15 @@
     border-bottom: 3px solid #333;
     margin-top: 1rem;
     text-align: center;
-    font-size: 1.5rem; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 1.5rem;
+    /* Ajuste o tamanho da fonte conforme necessário */
 }
 
 /* Estilo para a área de ofertas */
 .offers {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Ajusta a quantidade de colunas */
+    grid-template-columns: repeat(5, 1fr);
+    /* Ajusta a quantidade de colunas */
     align-items: center;
     justify-content: space-around;
     margin-top: 0.5rem;
@@ -33,9 +39,10 @@
 @media (max-width: 750px) {
     .title-announcement {
         margin-top: 1.1rem;
-        font-size: 1.25rem; /* Ajuste o tamanho da fonte conforme necessário */
+        font-size: 1.25rem;
+        /* Ajuste o tamanho da fonte conforme necessário */
     }
-    
+
     .offers {
         display: flex;
         flex-direction: column;

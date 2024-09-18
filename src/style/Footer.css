@@ -1,18 +1,23 @@
-.footer{
-    background-color: #000; /* Cor de fundo para a Navbar */
+.footer {
+    background-color: #000;
+    /* Cor de fundo para a Navbar */
     color: aliceblue;
-    padding: 10px; /* Adiciona algum preenchimento opcional */
-    text-align: center; /* Centraliza o texto no rodapé */
-    margin-top: auto; /* Empurra o Footer para o final da página */
+    padding: 10px;
+    /* Adiciona algum preenchimento opcional */
+    text-align: center;
+    /* Centraliza o texto no rodapé */
+    margin-top: auto;
+    /* Empurra o Footer para o final da página */
     display: flex;
     width: 100%;
-    
+
 }
 
-.data-footer{
+.data-footer {
     text-align: start;
     margin-left: 5rem;
 }
+
 .data-footer p {
     cursor: pointer;
     font-size: 10px;
@@ -20,12 +25,12 @@
 
 
 @media (max-width: 750px) {
-    .footer{
+    .footer {
         flex-direction: column;
-        
+
     }
 
-    .data-footer{
+    .data-footer {
         text-align: start;
         margin-left: 0;
         margin-bottom: 1rem;
@@ -36,5 +41,5 @@
         font-size: 15px;
         font-weight: 200;
     }
-   
+
 }

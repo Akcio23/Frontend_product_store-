@@ -1,12 +1,12 @@
-.image-product{
+.image-product {
     width: 199px;
     height: 254px;
     border-radius: 10px;
     filter: brightness(1.1);
-    
+
 }
 
-.image-product:hover{
- 
+.image-product:hover {
+
     background-image: "CamisaA1.webp";
 }
